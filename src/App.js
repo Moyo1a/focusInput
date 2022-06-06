@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import FocusInput from './component/FocusInput';
+import ClassTimer from './component/ClassTimer';
+import HookTimer from './component/HookTimer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <FocusInput /> */}
+     <ClassTimer />
+     <HookTimer />
     </div>
   );
 }
